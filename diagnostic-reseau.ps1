@@ -10,3 +10,5 @@ Write-Host "Test de la passerelle"
 Test-NetConnection 192.168.4.126
 Write-Host "Test de résolution DNS"
 Resolve-DnsName www.inframine.me
+Write-Host "Informations système"
+Get-ComputerInfo
